@@ -1,0 +1,4 @@
+remote_theme: "yous/whiteglass"
+title: "My Personal Site"
+description: "A clean, Bear-like Markdown website"
+show_excerpts: true
