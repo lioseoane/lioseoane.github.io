@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Projects"
-nav_order: 5
+permalink: /projects/
 ---
 
 # 🚀 Projects

@@ -1,7 +1,7 @@
 ---
-layout: default
-title: "Welcome"
-nav_order: 1
+layout: home
+title: "Welcome to My Website"
+permalink: /
 ---
 
 # 👋 Welcome to My Personal Website

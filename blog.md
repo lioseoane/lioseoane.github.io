@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Blog"
-nav_order: 4
+permalink: /blog/
 ---
 
 # ✍ Blog
