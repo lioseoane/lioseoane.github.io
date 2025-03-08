@@ -1,8 +1,3 @@
-remote_theme: "cotes2020/jekyll-theme-chirpy"
+remote_theme: kitian616/jekyll-TeXt-theme
 title: "Hello, I'm Lionel Seoane"
 description: "My personal website"
-theme_skin: "light"
-show_excerpts: true
-force_build: true
-sass:
-  style: compressed
