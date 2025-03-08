@@ -2,3 +2,6 @@ remote_theme: "yous/whiteglass"
 title: "Lionel Seoane Rollan"
 description: "My personal website"
 show_excerpts: true
+force_build: true
+sass:
+  style: compressed
