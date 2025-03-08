@@ -1,8 +1,12 @@
 ---
 layout: default
-title: "Projects"
+title: "Blog"
 nav_order: 4
 parent: "Home"
 ---
 
-# 🚀 Blog
+# ✍ Blog
+
+WIP
+
+## Entries
