@@ -1,9 +1,23 @@
-remote_theme: just-the-docs/just-the-docs
+remote_theme: daviddarnes/garth
 title: "Hello, I'm Lionel Seoane"
 description: "My personal website"
-color_scheme: light 
-search_enabled: true
+baseurl: ""  # Keep this empty unless using a subdirectory
+url: "https://lioseoane.github.io"  # Your GitHub Pages URL
 
-aux_links:
-  "GitHub Repository": "https://github.com/lioseoane/lioseoane.github.io"
-  
+# Author information
+author:
+  name: "Lionel Seoane"
+  email: "your-email@example.com"
+  twitter_username: "lioseoane"
+  github_username: "lioseoane"
+
+# Pagination settings
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Enable GitHub Pages plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-remote-theme
