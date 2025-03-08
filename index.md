@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "👋 About Me"
-permalink: /about/
+permalink: /
 ---
 
 Hello! I'm **Lionel Seoane**
