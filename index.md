@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: Lionel Seoane Rollan
 ---
 
 # 🐻 Hello, I'm Lionel Seoane

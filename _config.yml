@@ -1,6 +1,7 @@
-remote_theme: "yous/whiteglass"
-title: "Lionel Seoane Rollan"
+remote_theme: "cotes2020/jekyll-theme-chirpy"
+title: "Hello, I'm Lionel Seoane"
 description: "My personal website"
+theme_skin: "light"
 show_excerpts: true
 force_build: true
 sass:
