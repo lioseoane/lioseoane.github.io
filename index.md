@@ -12,3 +12,4 @@ I'm **Lionel Seoane Rollan**, and this is my **personal website**.
 - [About Me](about.md)
 - [Resume](resume.md)
 - [Blog](blog.md)
+- [Projects](projects.md)

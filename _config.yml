@@ -1,7 +1,7 @@
 remote_theme: just-the-docs/just-the-docs
 title: "Hello, I'm Lionel Seoane"
 description: "My personal website"
-color_scheme: light 
+color_scheme: dark 
 search_enabled: true
 
 aux_links:

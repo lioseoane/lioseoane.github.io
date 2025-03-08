@@ -9,4 +9,4 @@ parent: "Home"
 
 WIP
 
-## Entries
+## 🏆 Entries
