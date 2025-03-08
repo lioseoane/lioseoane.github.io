@@ -9,7 +9,7 @@
 <body>
     <article>
         <script>
-            fetch("index.md")
+            fetch("README.md")
                 .then(response => response.text())
                 .then(text => {
                     document.body.innerHTML = marked.parse(text);
