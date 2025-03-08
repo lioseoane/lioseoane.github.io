@@ -5,5 +5,3 @@ permalink: /resume/
 ---
 
 WIP
-
-## 🏆 Working Experience

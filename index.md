@@ -5,7 +5,7 @@ permalink: /
 ---
 
 Hello! I'm **Lionel Seoane**
-Welcom to my personal website
+Welcome to my personal website
 
 ## 🏆 Professional Background
 - 🎓 **Education:** Economics at University of Buenos Aires
