@@ -1,7 +1,13 @@
 ---
 layout: page
-title: "#👋 Welcome to My Personal Website"
-permalink: /
+title: "👋 About Me"
+permalink: /about/
 ---
 
-I'm **Lionel Seoane Rollan**, and this is my **personal website**.
+Hello! I'm **Lionel Seoane**
+Welcom to my personal website
+
+## 🏆 Professional Background
+- 🎓 **Education:** Economics at University of Buenos Aires
+- 💼 **Current Role:** Head of Product Analytics at Playtomic
+- 🧠 **Interests:** Economics, Geopolitics, AI, Sports, Technology
