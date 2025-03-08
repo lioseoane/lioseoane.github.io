@@ -1,8 +1,7 @@
 ---
 layout: page
+title: "#👋 Welcome to My Personal Website"
 permalink: /
 ---
-
-# 👋 Welcome to My Personal Website
 
 I'm **Lionel Seoane Rollan**, and this is my **personal website**.
