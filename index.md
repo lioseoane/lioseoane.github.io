@@ -1,21 +1,15 @@
 ---
 layout: default
-title: Lionel Seoane Rollan
+title: "Welcome"
+nav_order: 1
 ---
 
-# 🐻 Hello, I'm Lionel Seoane
+# 👋 Welcome to My Personal Website
 
-Welcome to my personal website.
+I'm **Lionel Seoane Rollan**, and this is my **Notion-style personal website**.
 
-## ✨ About Me
-- 🎨 **Passionate about:** Economics, Geopolitics, Artificial Intelligence, Sports and Technology
-- 📖 **Projects:** 
-- 📜 **Resume:** 
-
-## 🛠 Skills & Tools
-- **Languages:** Python, Markdown
-- **Tools:** Notion, GitHub
-
-## 📬 Get in Touch
-- 🐦 [Twitter](#)
-- 💼 [LinkedIn](#)
+## 📖 Sections
+- [Home](index.md)
+- [About Me](about.md)
+- [Projects](projects.md)
+- [Resume](resume.md)

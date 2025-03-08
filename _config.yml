@@ -1,5 +1,7 @@
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: just-the-docs/just-the-docs
 title: "Hello, I'm Lionel Seoane"
 description: "My personal website"
-theme_skin: "light"
-show_excerpts: true
+color_scheme: light # Can be light or dark
+search_enabled: true
+aux_links:
+  "GitHub Repository": "https://github.com/lioseoane/lioseoane.github.io"
