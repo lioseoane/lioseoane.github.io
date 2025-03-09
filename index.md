@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "👋 About Me"
+title: "👋 Welcome"
 permalink: /
 ---
 
 Hello! I'm **Lionel Seoane**
 Welcome to my personal website
 
-#### Professional Background
+#### About Me
 - 🎓 **Education:** Economics at University of Buenos Aires
 - 💼 **Current Role:** Head of Product Analytics at Playtomic
-- 🧠 **Interests:** Economics, Geopolitics, AI, Sports, Technology
+- ✨ **Interests:** Economics, Geopolitics, AI, Sports, Technology
