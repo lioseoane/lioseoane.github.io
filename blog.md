@@ -6,4 +6,4 @@ permalink: /blog/
 
 WIP
 
-## 🏆 Entries
+#### Entries

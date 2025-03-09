@@ -4,6 +4,5 @@ title: "🚀 Projects"
 permalink: /projects/
 ---
 
-WIP
 
-## 🏆 AIDL Capstone project
+#### 2025 - AIDL Capstone project
