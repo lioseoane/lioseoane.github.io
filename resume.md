@@ -16,7 +16,7 @@ Detailed information about my career journey, including **work experience, educa
 - WIP
 
 **Skills & Tools:**  
-`Python` `SQL` `Data Analysis` `Machine Learning` `Product Analytics`
+` Python ` ` SQL ` ` Data Analysis ` ` Machine Learning ` ` Product Analytics `
 
 ---
 
