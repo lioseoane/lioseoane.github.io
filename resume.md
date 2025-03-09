@@ -4,14 +4,13 @@ title: "📝 Resume"
 permalink: /resume/
 ---
 
-# 📝 Resume  
 Detailed information about my career journey, including **work experience, education, and key skills**.
 
 ---
 
-## **💼 Work Experience**  
+### **💼 Work Experience**  
 
-### **🚀 Playtomic (2024 - Present)**
+#### **🚀 Playtomic (2024 - Present)**
 **Role:** Head of Product Analytics
 **Responsibilities:**  
 - WIP
@@ -21,7 +20,7 @@ Detailed information about my career journey, including **work experience, educa
 
 ---
 
-### **📊 CoverWallet (2023 - 2024)**
+#### **📊 CoverWallet (2023 - 2024)**
 **Role:** Staff Data Analyst
 **Responsibilities:**  
 - WIP
@@ -31,7 +30,7 @@ Detailed information about my career journey, including **work experience, educa
 
 ---
 
-### **📦 Wallapop (2020 - 2022)**
+#### **📦 Wallapop (2020 - 2022)**
 **Role:** Senior Product Data Analyst
 **Responsibilities:**  
 - WIP
@@ -41,7 +40,7 @@ Detailed information about my career journey, including **work experience, educa
 
 ---
 
-### **🛒 MercadoLibre (2018 - 2019)**
+#### **🛒 MercadoLibre (2018 - 2019)**
 **Role:** Product Data Analyst
 **Responsibilities:**  
 - WIP
@@ -51,7 +50,7 @@ Detailed information about my career journey, including **work experience, educa
 
 ---
 
-### **✈️ Despegar (2016 - 2017)**
+#### **✈️ Despegar (2016 - 2017)**
 **Role:** Business Inteligence Analyst
 **Responsibilities:**  
 - WIP
@@ -61,9 +60,9 @@ Detailed information about my career journey, including **work experience, educa
 
 ---
 
-## **🎓 Education**  
+### **🎓 Education**  
 
-### **🤖 Postgraduate Degree in AI with Deep Learning (2024 - 2025)**
+#### **🤖 Postgraduate Degree in AI with Deep Learning (2024 - 2025)**
 📍 **Universitat Politècnica de Catalunya (Spain)**  
 **Focus:** Neural Networks, Computer Vision, NLP, AI Research  
 
@@ -72,7 +71,7 @@ Detailed information about my career journey, including **work experience, educa
 
 ---
 
-### **📈 Master’s Degree in Economics (2018 - 2019)**
+#### **📈 Master’s Degree in Economics (2018 - 2019)**
 📍 **Universidad de Buenos Aires (Argentina)**  
 **Focus:** Econometrics, Macroeconomics, Behavioral Economics  
 
@@ -81,7 +80,7 @@ Detailed information about my career journey, including **work experience, educa
 
 ---
 
-### **📊 Bachelor's Degree in Economics (2013 - 2017)**
+#### **📊 Bachelor's Degree in Economics (2013 - 2017)**
 📍 **Universidad de Buenos Aires (Argentina)**  
 **Focus:** Economic Theory, Statistics, Data Analysis  
 
