@@ -4,6 +4,6 @@ title: "✍ Blog"
 permalink: /blog/
 ---
 
-WIP
+Posts about AI, Technology, Economics or Sports
 
 #### Entries
