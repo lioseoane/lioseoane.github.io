@@ -5,10 +5,10 @@ permalink: /resume/
 ---
 
 Detailed information about my career journey, including **work experience, education, and key skills**.
-
 ---
 
 ### **💼 Work Experience**  
+
 
 #### **🚀 Playtomic (2024 - Present)**
 **Role:** Head of Product Analytics
@@ -43,6 +43,7 @@ Detailed information about my career journey, including **work experience, educa
 ---
 
 ### **🎓 Education**  
+
 
 #### **🤖 Postgraduate Degree in AI with Deep Learning (2024 - 2025)**
 📍 **Universitat Politècnica de Catalunya (Spain)**  
