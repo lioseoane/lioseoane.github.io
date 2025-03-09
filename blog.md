@@ -5,5 +5,3 @@ permalink: /blog/
 ---
 
 Posts about AI, Technology, Economics or Sports
-
-#### Entries

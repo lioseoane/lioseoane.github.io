@@ -6,4 +6,4 @@ permalink: /projects/
 
 Projects I have been involved:
 
-#### 2025 - AIDL Capstone project
+##### 2025 - AIDL Capstone project
