@@ -1,200 +1,290 @@
-// 🎨 Bear.app Inspired Theme Adjustments
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+// 🎨 Bear.app 2024 Theme Styling
 
 // Structural elements
 body {
-    background: $backgroundColour;
-    color: $bodyColour;
-    height: 100%;
-    display: flex;
-    @include flex-direction(column);
-    overflow-x: hidden;
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "SF Pro", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
-    font-size: 18px; // Better readability
-    line-height: 1.7; // Smoother line spacing
-  }
-  
+  background: $backgroundColour;
+  color: $bodyColour;
+  height: 100%;
+  display: flex;
+  @include flex-direction(column);
+  overflow-x: hidden;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; // Better readability
+  line-height: 1.8; // Smoother line spacing
+}
+
+.container {
+  width: 90%;
+  max-width: 820px; // Slightly smaller for a notebook feel
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+// Header, feature and footer
+.header,
+.footer {
   .container {
-    width: 90%;
-    max-width: 800px; // Slightly smaller for a notebook feel
-    margin: 0 auto;
-    padding: 1rem;
-  }
-  
-  // Header, feature and footer
-  .header,
-  .footer {
-    .container {
-      padding: 1.5rem 0;
-      @include flexbox;
-      @include flex-direction(column);
-      @include align-items(center);
-      text-align: center;
-    }
-    @include breakpoint(break-1) {
-      .container {
-        @include flex-direction(row);
-        @include justify-content(space-between);
-        text-align: inherit;
-      }
-    }
-  }
-  
-  .header {
-    @include flex(0, 0, auto);
-    background: darken($backgroundColour, 5%);
-    border-bottom: 2px solid darken($backgroundColour, 10%);
-  }
-  
-  .logo {
-    display: inline-block;
-    line-height: 0;
-    border-radius: 50%;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-    img {
-      width: 4rem;
-      height: 4rem;
-    }
-  }
-  
-  .logo:hover {
-    transform: scale(1.05);
-  }
-  
-  .small {
-    padding-top: 0.6rem;
-    color: $captionColour;
-    display: inline-block;
-  }
-  
-  .footer {
-    border-top: 1px solid darken($backgroundColour, 15%);
-    padding: 1rem;
-    font-size: 14px;
-    color: lighten($bodyColour, 20%);
-    text-align: center;
-  }
-  
-  // Navigation Bar
-  .nav {
-    &--paginator {
-      @include flexbox;
-      @include justify-content(center);
-      color: $captionColour;
-      text-align: center;
-    }
-  }
-  
-  .pagination {
-    margin: 0 1rem;
-  }
-  
-  // Main content area
-  .main {
+    padding: 1.5rem 0;
     @include flexbox;
     @include flex-direction(column);
-    @include flex(1, 0, auto);
-    margin-bottom: 1.6rem;
-    @include breakpoint(break-1) {
+    @include align-items(center);
+    text-align: center;
+  }
+  @include breakpoint(break-1) {
+    .container {
       @include flex-direction(row);
+      @include justify-content(space-between);
+      text-align: inherit;
     }
   }
-  
-  // Lists
-  .list {
-    &--posts,
-    &--nav {
-      list-style: none;
-    }
-    .item--post {
+}
+
+.header {
+  @include flex(0, 0, auto);
+  background: darken($backgroundColour, 3%);
+  border-bottom: 1px solid darken($backgroundColour, 8%);
+}
+
+.logo {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.small {
+  padding-top: 0.6rem;
+  color: $captionColour;
+  display: inline-block;
+}
+
+.footer {
+  border-top: 1px solid darken($backgroundColour, 10%);
+  padding: 1rem;
+  font-size: 14px;
+  color: lighten($bodyColour, 20%);
+  text-align: center;
+}
+
+// 🌍 Navigation Bar (Updated Bear-style)
+.nav {
+  &--paginator {
+    @include flexbox;
+    @include justify-content(center);
+    color: $captionColour;
+    text-align: center;
+  }
+}
+
+.pagination {
+  margin: 0 1rem;
+}
+
+// 📄 Main Content Area
+.main {
+  @include flexbox;
+  @include flex-direction(column);
+  @include flex(1, 0, auto);
+  margin-bottom: 1.6rem;
+  @include breakpoint(break-1) {
+    @include flex-direction(row);
+  }
+}
+
+// 📋 Lists
+.list {
+  &--posts,
+  &--nav {
+    list-style: none;
+  }
+  .item--post {
+    margin-left: 0;
+  }
+}
+
+.item {
+  &--nav {
+    display: inline-block;
+    margin-left: 1rem;
+    &:first-of-type {
       margin-left: 0;
     }
   }
-  
-  .item {
-    &--nav {
-      display: inline-block;
-      margin-left: 1rem;
-      &:first-of-type {
-        margin-left: 0;
-      }
-    }
-    &--current {
-      a {
-        color: desaturate($linkColour, 100%);
-      }
+  &--current {
+    a {
+      color: desaturate($linkColour, 100%);
     }
   }
-  
-  // Images and media elements
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px; // Slightly rounded corners for images
+}
+
+// 🖼️ Images and Media Elements
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; // Slightly rounded corners for images
+  transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+audio,
+video {
+  width: 100%;
+}
+
+// ✨ Text Selection (Updated Highlight Effect)
+::selection {
+  background: $linkColour;
+  color: $white;
+  text-shadow: none;
+}
+
+// 📝 Code Blocks (Modernized Look)
+pre {
+  background: $codeBackgroundColour;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 16px;
+}
+
+// 🎨 Buttons (Minimalist Bear-style)
+button,
+.button {
+  background: $linkColour;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  &:hover {
+    background: darken($linkColour, 10%);
   }
-  
-  audio,
-  video {
-    width: 100%;
+}
+
+// 🔗 Navbar Links (Soft Blue, No More Red)
+.nav a {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: $linkColour;
+  padding: 10px;
+  &:hover {
+    color: $hoverColour;
+    text-decoration: underline;
   }
-  
-  // Text selection (Highlight Effect)
-  ::selection {
-    background: $headingColour;
-    color: $white;
-    text-shadow: none;
+}
+
+// 📜 Blog Post Styling (Bear-like Minimalism)
+.post {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.post-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: $headingColour;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.post-meta {
+  text-align: center;
+  font-size: 14px;
+  color: lighten($bodyColour, 20%);
+  margin-bottom: 2rem;
+}
+
+.post-content {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.post-content img {
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 1.5rem 0;
+}
+
+.post-content blockquote {
+  background: lighten($backgroundColour, 5%);
+  border-left: 4px solid $linkColour;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+// 🏗️ Sidebar (Optional Feature)
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 220px;
+  background: darken($backgroundColour, 5%);
+  padding: 2rem 1rem;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 1rem;
+}
+
+.sidebar nav ul li a {
+  color: $linkColour;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sidebar nav ul li a:hover {
+  color: $hoverColour;
+}
+
+// 📱 Mobile Responsiveness
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; // Smaller text for small screens
   }
-  
-  // Code Blocks
-  pre {
-    background: $codeBackgroundColour;
+
+  .container {
+    max-width: 90%;
     padding: 1rem;
-    border-radius: 8px;
-    overflow-x: auto;
   }
-  
-  // Buttons (Bear-style minimal look)
-  button,
-  .button {
-    background: $linkColour;
-    color: #fff;
-    padding: 0.6rem 1.2rem;
-    border-radius: 6px;
-    font-size: 16px;
-    transition: background 0.3s ease;
-    &:hover {
-      background: darken($linkColour, 10%);
-    }
+
+  h1 {
+    font-size: 1.8rem;
   }
-  
-  // Navbar Links
-  .nav a {
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    color: $linkColour;
-    padding: 10px;
-    &:hover {
-      color: $hoverColour;
-    }
+
+  h2 {
+    font-size: 1.5rem;
   }
-  
-  // Sassline overrides
-  .typeset {
-    a > code {
-      text-shadow: none;
-    }
-    hr {
-      width: 100%;
-    }
-    li > p {
-      padding: 0;
-      margin: 0;
-    }
-    pre {
-      white-space: pre;
-      overflow-x: scroll;
-    }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    padding: 1rem;
   }
-  
+}

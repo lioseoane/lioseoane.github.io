@@ -1,21 +1,20 @@
-// 🎨 Bear.app Inspired Colors
+// 🎨 Bear.app Updated Colors (2024)
 
-// Primary Colors
-$bodyColour: #2E2E2E;  // Dark Gray for text
-$headingColour: #D9534F;  // Bear's signature red for headings
-$linkColour: #D9534F;  // Red links
-$hoverColour: darken($linkColour, 10%);  // Darker red on hover
-$captionColour: lighten($headingColour, 40%);
+$bodyColour: #333333;  // Darker Gray for Text
+$headingColour: #222222;  // Slightly Darker for Headers
+$linkColour: #0066CC;  // Bear.app's Blue Accent (instead of Red)
+$hoverColour: darken($linkColour, 10%);  // Darker Blue on Hover
+$captionColour: lighten($bodyColour, 40%);
 $white: #FFFFFF;
 
 // Background Colors
-$backgroundColour: #FDFDFD;  // Off-white background (Light Mode)
+$backgroundColour: #F5F5F5;  // Soft Gray (instead of White)
 $codeBackgroundColour: darken($backgroundColour, 5%);
 
-// Dark Mode Colors
-$bodyColourDark: #EAEAEA;  // Light gray text in dark mode
-$headingColourDark: #FF6B6B;  // Lighter red for dark mode
-$linkColourDark: #FF6B6B;
-$hoverColourDark: #FF4444;
-$backgroundColourDark: #1E1E1E;  // Dark gray background
+// Dark Mode Colors (Subtle Contrast)
+$bodyColourDark: #EAEAEA;  
+$headingColourDark: #FFFFFF;
+$linkColourDark: #66A3FF;  // Softer Blue in Dark Mode
+$hoverColourDark: #3399FF;
+$backgroundColourDark: #1E1E1E;
 $codeBackgroundColourDark: darken($backgroundColourDark, 5%);
