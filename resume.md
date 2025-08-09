@@ -12,6 +12,15 @@ Detailed information about my career journey
 ###### **🚀 Playtomic (2024 - Present)**
 **Head of Product Analytics** \
 `Python` `SQL` `Data Analysis` `Machine Learning` `Product Analytics`
+Built the product analytics function from scratch: Defined the role, hired the team, and implemented the foundational strategy to embed data into the product lifecycle.
+
+Lead the analytics strategy end-to-end, partnering with product, data, UX, and engineering to drive a data-informed culture across squads.
+
+Guide and mentor a team of 3 senior analysts, turning business questions into high-impact insights and strategic recommendations.
+
+Established tooling and tracking infrastructure: Lead negotiations with Mixpanel and RudderStack, aligning tools with long-term business needs.
+
+Own experimentation and tracking infrastructure, including best practices for instrumentation and scalable A/B testing processes
 
 ###### **📊 CoverWallet (2023 - 2024)** 
 **Staff Data Analyst**  \
