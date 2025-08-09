@@ -49,14 +49,20 @@ Led and executed key data initiatives as an individual contributor, including mi
 ###### **🤖 Postgraduate Degree in AI with Deep Learning (2024 - 2025)**
 📍 **Universitat Politècnica de Catalunya (Spain)** \
 `Deep Learning` `Computer Vision` `NLP` `Reinforcement Learning` `Python` `PyTorch` 
+
 15 ECTS credits postgraduate course. Completed part-time while working full-time at Playtomic
+
 
 ###### **📈 Master’s Degree in Economics (2018 - 2019)**
 📍 **Universidad de Buenos Aires (Argentina)** \
 `Advanced Econometrics` `Advanced Microeconomics` `Advanced Macroeconomics` `R`
+
 All compulsory subjects finished. (+300 Hours) Thesis and electives credits are pending.
 Attended part-time while working full-time at Mercado Libre.
+
 
 ###### **📊 Bachelor's Degree in Economics (2013 - 2017)**
 📍 **Universidad de Buenos Aires (Argentina)** \
 `Econometrics` `Microeconomics` `Macroeconomics` `Financial Markets` `Stata`
+
+5.5 years degree completed in 4.5. Cum Laude
