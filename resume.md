@@ -10,7 +10,7 @@ Detailed information about my career journey
 ### **💼 Work Experience**  
 
 ###### **🚀 Playtomic (2024 - Present)**
-**Head of Product Analytics** \
+**Product Analytics Manager** \
 `Python` `SQL` `Data Analysis` `Machine Learning` `Product Analytics`
 
 Built the product analytics function from scratch: Defined the role, hired the team, and implemented the foundational strategy to embed data into the product lifecycle.
