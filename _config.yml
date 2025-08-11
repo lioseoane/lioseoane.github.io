@@ -1,4 +1,4 @@
-remote_theme: daviddarnes/garth
+remote_theme: pmarsceill/just-the-docs
 title: "Hello, I'm Lionel Seoane"
 description: "My personal website"
 baseurl: ""  # Keep this empty unless using a subdirectory
@@ -21,3 +21,24 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-remote-theme
+
+# Just-the-Docs options (see full list at https://github.com/pmarsceill/just-the-docs)
+just_the_docs:
+  # enable built-in search
+  search_enabled: true
+
+  # top nav items
+  nav:
+    - title: "Home"
+      url: /
+    - title: "Blog"
+      url: /blog/
+    - title: "Projects"
+      url: /projects/
+    - title: "Resume"
+      url: /resume/
+
+  # your logo (optional)
+  logo:
+    image: /assets/images/logo.png
+    alt: "Lionel Seoane"
